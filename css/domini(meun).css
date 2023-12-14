@@ -1,0 +1,485 @@
+/* menu_subTab */
+/* ================================================ */
+.menu_subTab {
+    width: 100%;
+    padding-top: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.borderA {
+    border-bottom: 1px solid black;
+}
+
+.borderB {
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+}
+
+
+.menu_subTab h2 {
+    font-size: 32px;
+    color: #111111;
+    padding-bottom: 20px;
+}
+
+.mini_homBtn {
+    display: flex;
+    line-height: 50px;
+}
+
+.mini_homBtn li {
+    font-size: 13px;
+    color: #888888;
+}
+
+.sid_meun {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.sid_meun>li {
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.sid_meun>li:nth-child(2) {
+    border-left: 1px solid #888888;
+    padding-left: 10px;
+}
+
+.sid_meun>li:nth-child(3) {
+    border-left: 1px solid #888888;
+    padding-left: 10px;
+}
+
+.sid_meun>li:nth-child(4) {
+    border-left: 1px solid #888888;
+    padding-left: 10px;
+}
+
+.sid_meun>li:nth-child(5) {
+    border-left: 1px solid #888888;
+    padding-left: 10px;
+}
+
+.sid_meun>li:nth-child(6) {
+    border-left: 1px solid #888888;
+    padding-left: 10px;
+}
+
+.sid_meun>li:nth-child(7) {
+    border-left: 1px solid #888888;
+    padding-left: 10px;
+}
+
+.sid_meun>li>a {
+    font-size: 16px;
+    color: #888888;
+}
+
+
+
+
+/* ---------------(pizza menu)------------------ */
+.w1200>h3 {
+    text-align: center;
+    padding: 30px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.menu_Pizzaimg {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_Pizzaimg>li {
+    width: 276px;
+}
+
+.pizzs_img {
+    width: 276px;
+    height: 276px;
+}
+
+.pint_text {
+    font-size: 18px;
+    color: #111111;
+    font-weight: bold;
+
+}
+
+.redNew {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: red;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.size_red {
+    color: red;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.pint_textGry {
+    color: #888888;
+    font-size: 14px;
+    padding: 2px 0px;
+}
+
+/* ---------attention 주의사항-------------- */
+
+
+.attention {
+    font-size: 13px;
+    display: flex;
+    color: #888888;
+    padding-top: 50px;
+    padding-bottom: 100px;
+
+}
+
+.attention ul {
+    padding-top: 30px;
+    padding-left: 20px;
+    list-style-type: disc !important;
+
+}
+
+.attention>div>ul {
+    padding-top: 50px;
+
+}
+
+.attention_btn {
+    width: 50%;
+    text-align: center;
+    border-left: 1px solid #888888;
+    padding-top: 30px;
+}
+
+.attention_btn>button {
+    color: white;
+    background-color: black;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.attention_line {
+    padding-right: 50px
+}
+
+/* --------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----[haif]--------------------------- */
+.main_page {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.main_page>div {
+    width: calc(100% / 2 );
+    height: 580px;
+    /* border: 1px solid red; */
+}
+
+
+.img_tab {
+    height: 100%;
+    background-image: url(../img/pizza_pan.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.menu_tab {
+    width: 500px;
+   
+}
+
+.menu_tab>p {
+    font-weight: bold;
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+
+.half_Signature3 {
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    font-size: 18px;
+
+
+}
+
+.Signature3_img {
+    padding-top: 20px;
+    justify-content: space-around;
+    display: flex;
+    text-align: center;
+
+}
+
+figcaption {
+    background: none;
+    border: none;
+    color: #111111;
+    font-size: 13px;
+
+}
+
+.Signature3_img>img {
+    width: 115px;
+    height: 77px;
+
+}
+
+button {
+    background-color: #f8f8f8;
+    color: #888888;
+    border: 1px solid #888888;
+}
+
+
+
+.w115 {
+    width: 115px;
+    height: 170px;
+}
+
+
+.pizza_1 {
+    display: flex;
+}
+
+.img_tab {
+    display: flex;
+    flex: 1;
+    position:relative
+}
+
+
+.img_tab>div {
+    width: 255px;
+    height: 345px;
+    /* border: 1px solid red; */
+    overflow: hidden;
+    position:absolute;
+ 
+}
+.right_pizza{
+    top: 20%;
+    right: 45px;
+    transform: rotateY(180deg); 
+}
+.left_pizza{
+    top: 20%;
+    left: 45px;
+    
+    
+}
+.slect_pizza{
+    border-top: 1px solid black;
+    
+}
+
+.choice{
+    margin: 20px 0 ;
+    font-weight: bold;
+    
+}
+
+.select_1{
+    width: 100%;
+    height: 42px;
+    margin-bottom: 30px;
+    
+}
+.select_2{
+    width: 100%;
+    height: 42px;
+    margin-bottom: 50px;
+}
+
+.halfNhalf{
+    font-size: 14px;
+    color: #888888;
+    padding-top: 20px;
+}
+
+
+.btn_size{
+    display: flex;
+    justify-content: space-between;
+}
+/* ---------------------size button ------ */
+.btn_size{
+    padding-top: 10px;
+}
+.btn_size>div{
+    width: 300px; height: 50px;
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #333;
+    border-radius: 80px;
+    text-align: center;
+    line-height: 50px;
+    
+}
+
+.btn_size>div.active{
+    background-color: red;
+    color: #fff;
+
+}
+
+
+.aaaaa{
+    border-top: 1px solid #111111;
+}
+
+.BOX_inradio{
+    width: 100%; height: 100px;
+border: 1px solid black;
+
+}
+:root{accent-color:red;}
+
+/* --------------------------------topping------------------------ */
+.topping>ul{
+    display: flex;
+}
+
+.topping>ul>li{
+    border: 1px solid black;
+    width: 167px; height: 54px;
+    text-align: center;
+    
+}
+.topping>ul>li>a{
+    line-height: 50px;
+}
+
+.topping_img>ul>li {
+    display: flex;
+}
+.topping_img>ul>li>img{
+    width: 90px; height: 90px;
+}
+.button_topping>button{
+    border: none;
+background:none;
+    width: 40px; height: 40px;
+    /* border: 1px solid red; */
+}
+
+.button_topping>input{
+    border: none;
+    width: 40px; height: 40px;
+    /* border: 1px solid red; */
+    text-align: center;
+
+}
+.button_topping{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%; height: 60px;
+    border-radius: 50px;
+    border: 1px solid black;
+ }
+ .overflow{
+ width:100%; height: 345px;
+ overflow-y: scroll;
+ }
+

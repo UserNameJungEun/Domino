@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/domino_1.css" />
+    <link rel="stylesheet" href="./css/domini(meun).css" />
+  </head>
+
+  <body>
+    <header class="w1200">
+      <h1>
+        <a class="logo bg_icon" href="./domino(main).html">logo</a>
+      </h1>
+      <div class="search_wrap"><a href="" class="bg_icon arrow"></a></div>
+      <div class="h_btn_wrap">
+        <ul>
+          <li><a href="">로그인</a></li>
+          <li><a href="">회원가입</a></li>
+          <li class="h_lang">kor</li>
+        </ul>
+      </div>
+    </header>
+    <nav class="w100">
+      <ul class="w1200">
+        <li><a class="btn_subTab" href="./domino(Pizza menu).html">메뉴</a></li>
+        <li><a href="">e-쿠폰</a></li>
+        <li><a href="">상품권 선물</a></li>
+        <li><a href="">이벤트·제휴</a></li>
+        <li><a href="">매장검색</a></li>
+        <li><a href="">가맹점 모집</a></li>
+        <!-- <li><a class="btn_more" href="">더보기</a></li>
+            </ul> -->
+
+        <li><a class="btn_more" href="javascript:void(0)">더보기</a></li>
+      </ul>
+      <!-- //href 이동속성을 막아버리는 속성// -->
+    </nav>
+
+    <!-- ---------------------------------------- -->
+    <div class="sub_nav">
+      <ul class="mor">
+        <li>
+          <a>도미노 서비스</a>
+          <ul>
+            <li>매니아 혜택</li>
+            <li>도미노모먼트</li>
+            <li>퀵오더</li>
+            <li>단체주문 서비스</li>
+          </ul>
+        </li>
+        <li>
+          <a>고객센터</a>
+          <ul>
+            <li>자주하는질문</li>
+            <li>문의하기/칭찬</li>
+          </ul>
+        </li>
+        <li>
+          <a>회사소개</a>
+          <ul>
+            <li>한국도미노피자</li>
+            <li>광고갤러리</li>
+            <li>사회공헌활동</li>
+            <li>가맹점 모음</li>
+            <li>인재채용</li>
+          </ul>
+        </li>
+
+        <li class="barder"></li>
+        <li>
+          <a>공지사항</a>
+          <ul>
+            <li>-도미노 뉴스</li>
+            <li>-보도자료</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="w1200 borderA">
+      <div class="menu_subTab">
+        <h2>메뉴</h2>
+        <ul class="mini_homBtn">
+          <li><a href="./domino(main).html">홈 ></a></li>
+          <li><a href="./domino(Pizza menu).html">메뉴 ></a></li>
+          <li><a href="javascript:void(0)" id="tab_name">하프앤하프</a></li>
+        </ul>
+      </div>
+      <ul class="sid_meun">
+        <li class="menuTab" data-text="피자" data-id="new">
+          <a href="./domino(Pizza menu).html"></a>피자
+        </li>
+        <li class="menuTab" data-text="1인메뉴" data-id="person">1인메뉴</li>
+        <li class="menuTab" data-text="하프앤하프" data-id="half">
+          <a href="./domino(pizza menu_half).html"></a>하프앤하프
+        </li>
+        <li class="menuTab" data-text="사이드디시" data-id="sid">사이드디시</li>
+        <li class="menuTab" data-text="인기세트메뉴" data-id="bast">
+          인기세트메뉴
+        </li>
+        <li class="menuTab" data-text="마이키친" data-id="kitchen">마이키친</li>
+        <li class="menuTab" data-text="음료&기타" data-id="drink">음료&기타</li>
+      </ul>
+    </div>
+
+    <article class="w1200 main_page pizza_cho">
+      <div class="img_tab">
+        <div class="left_pizza"></div>
+        <div class="right_pizza"></div>
+      </div>
+      <div class="menu_tab">
+        <p>피자 한 판으로 두 가지 맛을동시에!</p>
+        <div class="half_Signature3">
+          <p>
+            <span class="redNew">추천</span> 베스트 조합! 하프앤하프 시그니처
+            3종!
+          </p>
+          <div class="Signature3_img">
+            <div class="w115 orderBox">
+              <figure>
+                <img src="./img/pizza_half29.png" />
+              </figure>
+              <figcaption>
+                와일드 와일드 웨이스트 스테이크 + 블랙타이거 슈림프
+              </figcaption>
+              <button class="orderBox_btn">주문하기</button>
+            </div>
+            <div class="w115 orderBox">
+              <figure>
+                <img src="./img/pizza_half29.png" />
+              </figure>
+              <figcaption>블랙타이거 슈림프 + 블랙앵거스 스테이크</figcaption>
+              <button>주문하기</button>
+            </div>
+            <div class="w115 orderBox">
+              <figure>
+                <img src="./img/pizza_half29.png" />
+              </figure>
+              <figcaption>포테이토 + 리얼불고기치즈 엣지</figcaption>
+              <button>주문하기</button>
+            </div>
+          </div>
+        </div>
+        <div class="slect_pizza">
+          <p class="choice">피자 선택</p>
+          <select class="select_1">
+            <option>첫 번째 피자</option>
+            <option>뉴욕 오리진</option>
+            <option>뉴욕 오리진 더블 치즈 페퍼로니 엣지</option>
+            <option>뉴욕 오리진 더블 치즈엣지</option>
+            <option>
+              뉴욕 오리진 슈퍼시드 화이버 함유 도우 더블 치즈 페퍼로니 엣지
+            </option>
+            <option>뉴욕 오리진 슈퍼시드 화이버 함유 도우 더블치즈엣지</option>
+            <option>뉴욕 오리진 트리플 치즈 버스트 엣지</option>
+            <option>리얼불고기</option>
+            <option>리얼불고기 더블 치즈 페퍼로니 엣지</option>
+            <option>리얼불고기 더블치즈엣지</option>
+            <option>
+              리얼불고기 슈퍼시드 화이버 함유 도우 더블 치즈 페퍼로니 엣지
+            </option>
+            <option>리얼불고기 슈퍼시드 화이버 함유 도우 더블 치즈엣지</option>
+            <option>
+              리얼불고기 슈퍼시드 화이버 함유 도우 트리플 치즈 버스트 엣지
+            </option>
+            <option>리얼불고기 트리플 치즈 버스트 엣지</option>
+            <option>베이컨체더치즈</option>
+            <option>베이컨체더치즈 더블 치즈 페퍼로니 엣지</option>
+            <option>베이컨체더치즈 더블치즈엣지</option>
+            <option>
+              베이컨체더치즈 슈퍼시드 화이버 함유 도우 더블 치즈 페퍼로니 엣지
+            </option>
+            <option>
+              베이컨체더치즈 슈퍼시드 화이버 함유 도우 더블치즈엣지
+            </option>
+            <option>
+              베이컨체더치즈 슈퍼시드 화이버 함유 도우 트리플 치즈 버스트 엣지
+            </option>
+            <option>베이컨체더치즈 트리플 치즈 버스트 엣지</option>
+            <option>블랙앵거스 스테이크</option>
+            <option>블랙앵거스 스테이크 더블 치즈 페퍼로니 엣지</option>
+            <option>블랙앵거스 스테이크 더블치즈 엣지</option>
+            <option>
+              블랙앵거스 스테이크 슈퍼시드 화이버 함유 도우 더블 치즈 페퍼로니
+              엣지
+            </option>
+            <option>
+              블랙앵거스 스테이크 슈퍼시드 화이버 함유 도우 더블치즈엣지
+            </option>
+            <option>
+              블랙앵거스 스테이크 슈퍼시드 화이버 함유 도우 트리플 치즈 버스트
+              엣지
+            </option>
+            <option>블랙앵거스 스테이크 트립플 치즈 버스트 엣지</option>
+            <option>블랙타이거 슈림프</option>
+            <option>블랙타이거 슈림프 더블 치즈 페퍼로니 엣지</option>
+            <option>블랙타이거 슈림프 더블 치즈엣지</option>
+            <option>
+              블랙타이거 슈림프 슈퍼시드 화이버 함유 도우 더블 치즈 페퍼로니
+              엣지
+            </option>
+            <option>
+              블랙타이거 슈림프 슈퍼시드 화이버 함유 도우 더블치즈 엣지
+            </option>
+            <option>
+              블랙타이거 슈림프 슈퍼시드 화이버 함유 도우 트리플 치즈 버스트
+              엣지
+            </option>
+            <option>블랙타이거 슈림프 트리플 치즈 버스트 엣지</option>
+            <option>슈퍼드럭스</option>
+            <option>슈퍼디럭스 더블 치즈 페퍼로니 엣지</option>
+            <option>슈퍼디럭스 더블치즈엣지</option>
+            <option>
+              슈퍼디럭스 슈퍼시드 화이버 함유 도우 더블 치즈 페퍼로니 엣지
+            </option>
+            <option>슈퍼디럭스 슈퍼시드 화이버 함유 도우 더블치즈엣지</option>
+            <option>
+              슈퍼디럭스 슈퍼시드 화이버 함유 도우 트리플 치즈 버스트 엣지
+            </option>
+            <option>슈퍼디럭스 트리플 치즈 버스트 엣지</option>
+            <option>슈퍼슈프림</option>
+            <option>슈퍼슈프림 더블 치즈 페퍼로니 엣지</option>
+            <option>슈퍼슈프림 더블치즈엣지</option>
+            <option>
+              슈퍼슈프림 슈퍼시드 화이버 함유 도우 더블치즈 페퍼로니 엣지
+            </option>
+            <option>슈퍼슈프림 슈퍼시드 화이버 함유 도우 더블치즈 엣지</option>
+            <option>
+              슈퍼슈프림 슈퍼시드 화이버 함유 도우 트리플 치즈 버스트 엣지
+            </option>
+            <option>슈퍼슈프림 트리플 치즈 버스트 엣지</option>
+            <option>아보카도 새우</option>
+            <option>아보카도 새우 더블 치즈 페퍼로니 엣지</option>
+            <option>아보카도 새우 더블치즈 엣지</option>
+            <option>
+              아보카도 새우 슈퍼시드 화이버 함유 도우 더블 치즈 페퍼로니 엣지
+            </option>
+            <option>아보카도 새우 트리플 치즈 버스트 엣지</option>
+            <option>와일드 와일드 웨스트 스테이크</option>
+            <option>
+              와일드 와일드 웨스트 스테이크 더블 치즈 페퍼로니 엣지
+            </option>
+            <option>와일드 와일드 웨스트 스테이크 더블치즈엣지</option>
+            <option>
+              와일드 와일드 웨스트 스테이크 슈퍼시드 화이버 함유 도우 더블 치즈
+              페퍼로니 엣지
+            </option>
+            <option>
+              와일드 와일드 웨스트 스테이크 슈퍼시드 화이버 함유 도우 더블치즈
+              엣지
+            </option>
+            <option>
+              와일드 와일드 웨스트 스테이크 슈퍼시드 화이버 함유 도우 치즈
+              버스트 엣지
+            </option>
+            <option>와이르드 와일드 웨스트 스테이크 치즈 버스트 엣지</option>
+            <option>우리 고구마</option>
+            <option>우리 고구마 더블 치즈 페퍼로니 엣지</option>
+            <option>우리 고구마 더블치즈엣지</option>
+            <option>
+              우리 고구마 슈퍼시드 화이버 함유 도우 더블 치즈 페퍼로니 엣지
+            </option>
+            <option>우리 고구마 슈퍼시드 화이버 함유 도우 더블치즈엣지</option>
+            <option>
+              우리 고구마 슈퍼시드 호이버 함유 도우 트리플 치즈 버스트 엣지
+            </option>
+            <option>우릭 고구마 트리플 치즈 버스트 엣지</option>
+            <option>치즈</option>
+            <option>치즈 더블치즈 페퍼로니 엣지</option>
+            <option>
+              치즈 슈퍼시드 화이버 함유 도우 더블 치즈 페퍼로니 엣지
+            </option>
+            <option>치즈 슈퍼시드 화이버 함유 도우 더블치즈엣지</option>
+            <option>
+              치즈 슈퍼시드 화이버 함유 도우 트리플 치즈 버스트 엣지
+            </option>
+            <option>치즈 트리플 치즈 버스트 엣지</option>
+            <option>페퍼로니</option>
+            <option>페퍼로니 더블치즈 페퍼로니 엣지</option>
+            <option>페퍼로니 더블치즈 엣지</option>
+            <option>
+              페퍼로니 슈퍼시드 화이버 함유 도우 더블 치즈 페퍼로니 엣지
+            </option>
+            <option>페퍼로니 슈퍼시드 화이버 함유 도우 더블치즈엣지</option>
+            <option>
+              페퍼로니 슈퍼시드 화이버 함유 도우 트리플 치즈 버스트 엣지
+            </option>
+            <option>페퍼로니 트리플 치즈 버스트 엣지</option>
+            <option>포테이토</option>
+            <option>포테이토 더블 치즈 페퍼로니 엣지</option>
+            <option>포테이토 더블치즈엣지</option>
+            <option>
+              포테이토 슈퍼시드 화이버 함유 도우 더블 치즈 페퍼로니 엣지
+            </option>
+            <option>포테이토 슈퍼시드 화이버 함유 도우 더블치즈엣지</option>
+            <option>
+              포테이토 슈퍼시드 화이버 함유 도우 트리플 치즈 버스트 엣지
+            </option>
+            <option>포테이토 트리플 치즈 버스트 엣지</option>
+          </select>
+        </div>
+        <div>
+          <select class="select_2">
+            <option>두번째 피자</option>
+            <option>뉴욕 오리진</option>
+            <option>뉴욕 오리진 더블 치즈 페퍼로니 엣지</option>
+            <option>뉴욕 오리진 더블 치즈엣지</option>
+            <option>
+              뉴욕 오리진 슈퍼시드 화이버 함유 도우 더블 치즈 페퍼로니 엣지
+            </option>
+            <option>뉴욕 오리진 슈퍼시드 화이버 함유 도우 더블치즈엣지</option>
+            <option>뉴욕 오리진 트리플 치즈 버스트 엣지</option>
+            <option>리얼불고기</option>
+            <option>리얼불고기 더블 치즈 페퍼로니 엣지</option>
+            <option>리얼불고기 더블치즈엣지</option>
+            <option>
+              리얼불고기 슈퍼시드 화이버 함유 도우 더블 치즈 페퍼로니 엣지
+            </option>
+            <option>리얼불고기 슈퍼시드 화이버 함유 도우 더블 치즈엣지</option>
+            <option>
+              리얼불고기 슈퍼시드 화이버 함유 도우 트리플 치즈 버스트 엣지
+            </option>
+            <option>리얼불고기 트리플 치즈 버스트 엣지</option>
+            <option>베이컨체더치즈</option>
+            <option>베이컨체더치즈 더블 치즈 페퍼로니 엣지</option>
+            <option>베이컨체더치즈 더블치즈엣지</option>
+            <option>
+              베이컨체더치즈 슈퍼시드 화이버 함유 도우 더블 치즈 페퍼로니 엣지
+            </option>
+            <option>
+              베이컨체더치즈 슈퍼시드 화이버 함유 도우 더블치즈엣지
+            </option>
+            <option>
+              베이컨체더치즈 슈퍼시드 화이버 함유 도우 트리플 치즈 버스트 엣지
+            </option>
+            <option>베이컨체더치즈 트리플 치즈 버스트 엣지</option>
+            <option>블랙앵거스 스테이크</option>
+            <option>블랙앵거스 스테이크 더블 치즈 페퍼로니 엣지</option>
+            <option>블랙앵거스 스테이크 더블치즈 엣지</option>
+            <option>
+              블랙앵거스 스테이크 슈퍼시드 화이버 함유 도우 더블 치즈 페퍼로니
+              엣지
+            </option>
+            <option>
+              블랙앵거스 스테이크 슈퍼시드 화이버 함유 도우 더블치즈엣지
+            </option>
+            <option>
+              블랙앵거스 스테이크 슈퍼시드 화이버 함유 도우 트리플 치즈 버스트
+              엣지
+            </option>
+            <option>블랙앵거스 스테이크 트립플 치즈 버스트 엣지</option>
+            <option>블랙타이거 슈림프</option>
+            <option>블랙타이거 슈림프 더블 치즈 페퍼로니 엣지</option>
+            <option>블랙타이거 슈림프 더블 치즈엣지</option>
+            <option>
+              블랙타이거 슈림프 슈퍼시드 화이버 함유 도우 더블 치즈 페퍼로니
+              엣지
+            </option>
+            <option>
+              블랙타이거 슈림프 슈퍼시드 화이버 함유 도우 더블치즈 엣지
+            </option>
+            <option>
+              블랙타이거 슈림프 슈퍼시드 화이버 함유 도우 트리플 치즈 버스트
+              엣지
+            </option>
+            <option>블랙타이거 슈림프 트리플 치즈 버스트 엣지</option>
+            <option>슈퍼드럭스</option>
+            <option>슈퍼디럭스 더블 치즈 페퍼로니 엣지</option>
+            <option>슈퍼디럭스 더블치즈엣지</option>
+            <option>
+              슈퍼디럭스 슈퍼시드 화이버 함유 도우 더블 치즈 페퍼로니 엣지
+            </option>
+            <option>슈퍼디럭스 슈퍼시드 화이버 함유 도우 더블치즈엣지</option>
+            <option>
+              슈퍼디럭스 슈퍼시드 화이버 함유 도우 트리플 치즈 버스트 엣지
+            </option>
+            <option>슈퍼디럭스 트리플 치즈 버스트 엣지</option>
+            <option>슈퍼슈프림</option>
+            <option>슈퍼슈프림 더블 치즈 페퍼로니 엣지</option>
+            <option>슈퍼슈프림 더블치즈엣지</option>
+            <option>
+              슈퍼슈프림 슈퍼시드 화이버 함유 도우 더블치즈 페퍼로니 엣지
+            </option>
+            <option>슈퍼슈프림 슈퍼시드 화이버 함유 도우 더블치즈 엣지</option>
+            <option>
+              슈퍼슈프림 슈퍼시드 화이버 함유 도우 트리플 치즈 버스트 엣지
+            </option>
+            <option>슈퍼슈프림 트리플 치즈 버스트 엣지</option>
+            <option>아보카도 새우</option>
+            <option>아보카도 새우 더블 치즈 페퍼로니 엣지</option>
+            <option>아보카도 새우 더블치즈 엣지</option>
+            <option>
+              아보카도 새우 슈퍼시드 화이버 함유 도우 더블 치즈 페퍼로니 엣지
+            </option>
+            <option>아보카도 새우 트리플 치즈 버스트 엣지</option>
+            <option>와일드 와일드 웨스트 스테이크</option>
+            <option>
+              와일드 와일드 웨스트 스테이크 더블 치즈 페퍼로니 엣지
+            </option>
+            <option>와일드 와일드 웨스트 스테이크 더블치즈엣지</option>
+            <option>
+              와일드 와일드 웨스트 스테이크 슈퍼시드 화이버 함유 도우 더블 치즈
+              페퍼로니 엣지
+            </option>
+            <option>
+              와일드 와일드 웨스트 스테이크 슈퍼시드 화이버 함유 도우 더블치즈
+              엣지
+            </option>
+            <option>
+              와일드 와일드 웨스트 스테이크 슈퍼시드 화이버 함유 도우 치즈
+              버스트 엣지
+            </option>
+            <option>와이르드 와일드 웨스트 스테이크 치즈 버스트 엣지</option>
+            <option>우리 고구마</option>
+            <option>우리 고구마 더블 치즈 페퍼로니 엣지</option>
+            <option>우리 고구마 더블치즈엣지</option>
+            <option>
+              우리 고구마 슈퍼시드 화이버 함유 도우 더블 치즈 페퍼로니 엣지
+            </option>
+            <option>우리 고구마 슈퍼시드 화이버 함유 도우 더블치즈엣지</option>
+            <option>
+              우리 고구마 슈퍼시드 호이버 함유 도우 트리플 치즈 버스트 엣지
+            </option>
+            <option>우릭 고구마 트리플 치즈 버스트 엣지</option>
+            <option>치즈</option>
+            <option>치즈 더블치즈 페퍼로니 엣지</option>
+            <option>
+              치즈 슈퍼시드 화이버 함유 도우 더블 치즈 페퍼로니 엣지
+            </option>
+            <option>치즈 슈퍼시드 화이버 함유 도우 더블치즈엣지</option>
+            <option>
+              치즈 슈퍼시드 화이버 함유 도우 트리플 치즈 버스트 엣지
+            </option>
+            <option>치즈 트리플 치즈 버스트 엣지</option>
+            <option>페퍼로니</option>
+            <option>페퍼로니 더블치즈 페퍼로니 엣지</option>
+            <option>페퍼로니 더블치즈 엣지</option>
+            <option>
+              페퍼로니 슈퍼시드 화이버 함유 도우 더블 치즈 페퍼로니 엣지
+            </option>
+            <option>페퍼로니 슈퍼시드 화이버 함유 도우 더블치즈엣지</option>
+            <option>
+              페퍼로니 슈퍼시드 화이버 함유 도우 트리플 치즈 버스트 엣지
+            </option>
+            <option>페퍼로니 트리플 치즈 버스트 엣지</option>
+            <option>포테이토</option>
+            <option>포테이토 더블 치즈 페퍼로니 엣지</option>
+            <option>포테이토 더블치즈엣지</option>
+            <option>
+              포테이토 슈퍼시드 화이버 함유 도우 더블 치즈 페퍼로니 엣지
+            </option>
+            <option>포테이토 슈퍼시드 화이버 함유 도우 더블치즈엣지</option>
+            <option>
+              포테이토 슈퍼시드 화이버 함유 도우 트리플 치즈 버스트 엣지
+            </option>
+            <option>포테이토 트리플 치즈 버스트 엣지</option>
+          </select>
+        </div>
+        <div class="aaaaa borderC">
+          <p class="choice">사이즈 선택</p>
+          <div class="btn_size">
+            <div id="large">L</div>
+            <div>M</div>
+          </div>
+        </div>
+        <div>
+          <p class="choice">도우 선택</p>
+          <ul class="BOX_inradio">
+            <li>
+              <input type="radio" name="dough" />
+              <label for="">오리지널도우</label>
+            </li>
+            <li>
+              <input type="radio" name="dough" />
+              <label for="">나폴리도우</label>
+            </li>
+            <li>
+              <input type="radio" name="dough" />
+              <label for="">씬도우(기본갈릭디팡소스미제공)</label>
+            </li>
+            <li>
+              <input type="radio" name="dough" />
+              <label for="">슈퍼시드화이버함유도우</label>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p>
+            토핑추가
+            <span style="color: red; font-size: 12px"
+              >ⓘ토핑 알레르기 유발성분</span
+            >
+          </p>
+          <p>*토핑추가는 피자 한판당 5개까지 추가가능</p>
+        </div>
+        <div class="topping">
+          <ul>
+            <li><a href="">메인</a></li>
+            <li><a href="">치즈</a></li>
+            <li><a href="">에프터</a></li>
+          </ul>
+        </div>
+        <div class="topping_img">
+          <ul class="overflow">
+            <li>
+              <img src="./img/20231129_wNMd8GaC.jpg" alt="" />
+              <div class="button_topping">
+                <button
+                  class="minus_btn"
+                  onclick="decrementValue('toppingCount1')"
+                >
+                  -
+                </button>
+                <input id="toppingCount1" type="text" value="0" readonly />
+                <button
+                  class="plus_btn"
+                  onclick="incrementValue('toppingCount1')"
+                >
+                  +
+                </button>
+              </div>
+            </li>
+            <li>
+              <img src="./img/20231129_4S0l2QPC.jpg" alt="" />
+              <div class="button_topping">
+                <button
+                  class="minus_btn"
+                  onclick="decrementValue('toppingCount2')"
+                >
+                  -
+                </button>
+                <input id="toppingCount2" type="text" value="0" readonly />
+                <button
+                  class="plus_btn"
+                  onclick="incrementValue('toppingCount2')"
+                >
+                  +
+                </button>
+              </div>
+            </li>
+            <li>
+              <img src="./img/20230406_d2aTRZdV.jpg" alt="" />
+              <div class="button_topping">
+                <button
+                  class="minus_btn"
+                  onclick="decrementValue('toppingCount3')"
+                >
+                  -
+                </button>
+                <input id="toppingCount3" type="text" value="0" readonly />
+                <button
+                  class="plus_btn"
+                  onclick="incrementValue('toppingCount3')"
+                >
+                  +
+                </button>
+              </div>
+            </li>
+            <li>
+              <img src="./img/20200316_oi9xdc8U.jpg" alt="" />
+              <div class="button_topping">
+                <button
+                  class="minus_btn"
+                  onclick="decrementValue('toppingCount4')"
+                >
+                  -
+                </button>
+                <input id="toppingCount4" type=" text" value="0" readonly />
+                <button
+                  class="plus_btn"
+                  onclick="incrementValue('toppingCount4')"
+                >
+                  +
+                </button>
+              </div>
+            </li>
+            <li>
+              <img src="./img/RTP239.jpg" alt="" />
+              <div class="button_topping">
+                <button
+                  class="minus_btn"
+                  onclick="decrementValue('toppingCount5')"
+                >
+                  -
+                </button>
+                <input id="toppingCount5" type=" text" value="0" readonly />
+                <button
+                  class="plus_btn"
+                  onclick="incrementValue('toppingCount5')"
+                >
+                  +
+                </button>
+              </div>
+            </li>
+            <li>
+              <img src="./img/RTP239.jpg" alt="" />
+              <div class="button_topping">
+                <button
+                  class="minus_btn"
+                  onclick="decrementValue('toppingCount6')"
+                >
+                  -
+                </button>
+                <input id="toppingCount6" type=" text" value="0" readonly />
+                <button
+                  class="plus_btn"
+                  onclick="incrementValue('toppingCount6')"
+                >
+                  +
+                </button>
+              </div>
+            </li>
+            <li>
+              <img src="./img/RTP239.jpg" alt="" />
+              <div class="button_topping">
+                <button
+                  class="minus_btn"
+                  onclick="decrementValue('toppingCount7')"
+                >
+                  -
+                </button>
+                <input id="toppingCount7" type=" text" value="0" readonly />
+                <button
+                  class="plus_btn"
+                  onclick="incrementValue('toppingCount7')"
+                >
+                  +
+                </button>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- <div class="btn">
+                <button class="minus_btn"> - </button>
+                <input type=" text" value="5" readonly>
+                <button class="plus_btn"> + </button>
+            </div>
+            <div class="btn">
+                <button class="minus_btn"> - </button>
+                <input type=" text" value="0" readonly>
+                <button class="plus_btn"> + </button>
+            </div>
+            <div class="btn">
+                <button class="minus_btn"> - </button>
+                <input type=" text" value="0" readonly>
+                <button class="plus_btn"> + </button>
+            </div>
+         -->
+      </div>
+    </article>
+
+    <script src="./js/domino1.js"></script>
+  </body>
+</html>
